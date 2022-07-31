@@ -20,6 +20,7 @@ public class Greeter {
     String language = args[0];
     String country = args[1];
     String name = args[2];
+	int arg_c = args.length;
     Greeter greeter = new Greeter(language, country, name);
     System.out.println(greeter.sayHello());
   }
